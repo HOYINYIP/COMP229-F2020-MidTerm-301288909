@@ -79,7 +79,7 @@ router.post('/:id', (req, res, next) => {
 
     let updatedBook = book({
         "_id": id,
-        "Title:": req.body.title,
+        "Title": req.body.title,
         "Description": req.body.description,
         "Price": req.body.price,
         "Author": req.body.author,
